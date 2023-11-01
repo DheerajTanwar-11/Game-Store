@@ -1,3 +1,4 @@
+/* = = = = = = Fonts = = = = = = */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @font-face {
 	font-family: "The Devil Net";
@@ -7,6 +8,7 @@
 	font-family: "Berserker";
 	src: url(/fonts/Berserker-Regular.ttf);
 }
+
 /* = = = = = = Base = = = = = = */
 * {
 	border: border-box;
@@ -15,6 +17,7 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+/* = = = = = = Navbar = = = = = = */
 .nav-item a {
 	border-radius: 5px;
 }
@@ -23,16 +26,28 @@
 	background-color: rgb(98, 120, 124);
 }
 
+/* = = = = = = Global Heading Tag 1 = = = = = = */
 h1 {
 	font-family: "The Devil Net";
 	letter-spacing: 0.5rem;
 }
 
+/* = = = = = = Welcome Section = = = = = = */
 .welcome {
 	background-image: url(/img/bg2.jpg);
 	background-size: cover;
 }
 
+.welcome p {
+	text-align: justify;
+}
+/* = = = = = = Carausel = = = = = = */
+.carausel h5 {
+	font-family: "The Devil Net";
+	letter-spacing: 0.4rem;
+}
+
+/* = = = = = = New Launch Section = = = = = = */
 .new-launch p {
 	font-size: 0.8rem;
 }
@@ -41,11 +56,7 @@ h1 {
 	text-align: justify;
 }
 
-.carausel h5 {
-	font-family: "The Devil Net";
-	letter-spacing: 0.4rem;
-}
-
+/* = = = = = = Featured Games Section = = = = = = */
 .featured-games .card {
 	border: none;
 }
@@ -54,6 +65,7 @@ h1 {
 	font-family: "The Devil Net";
 }
 
+/* = = = = = = Platforms Section = = = = = = */
 .platforms img {
 	height: 200px;
 }
@@ -64,4 +76,15 @@ h1 {
 
 .platforms .card {
 	border: none;
+}
+
+/* = = = = = = Footer = = = = = = */
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer li {
+	list-style: none;
+	font-size: 0.9rem;
 }

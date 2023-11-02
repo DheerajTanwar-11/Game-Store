@@ -4,6 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Game Store: Find Your Favourite Games</title>
+		<!-- = = = = = = Favicon = = = = = = -->
+		<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
 		<!-- = = = = = = Bootstrap Css = = = = = = -->
 		<link
 			rel="stylesheet"
@@ -20,9 +22,9 @@
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-	<body class="bg-dark text-light">
+	<body class="bg-dark text-light" id="home">
 		<!-- = = = = = = Navbar Starts = = = = = = -->
-		<header class="navbar container-fluid p-4">
+		<header class="navbar container-fluid p-4" id="home">
 			<nav
 				class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-lg"
 			>
@@ -63,7 +65,7 @@
 								<a
 									class="nav-link active text-capitalize"
 									aria-current="page"
-									href="#"
+									href="#home"
 									>Home</a
 								>
 							</li>
@@ -79,7 +81,7 @@
 								<a
 									class="nav-link active text-capitalize"
 									aria-current="page"
-									href="#"
+									href="#featured"
 									>Featured</a
 								>
 							</li>
@@ -87,11 +89,11 @@
 								<a
 									class="nav-link active text-capitalize"
 									aria-current="page"
-									href="#"
+									href="#newlaunch"
 									>New Launch</a
 								>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item me-4">
 								<a
 									class="nav-link active text-capitalize"
 									aria-current="page"
@@ -110,20 +112,24 @@
 		<!-- = =  = = = = Navbar Ends = = = = = = -->
 		<!-- = = = = = = Welcome Section Starts = = = = = = -->
 		<section
-			class="welcome container-fluid d-flex align-items-center justify-content-center text-center p-5"
+			class="welcome d-flex align-items-center justify-content-center text-center"
 			style="height: auto"
 		>
-			<div class="p-3">
-				<h1 class="text-dark mb-5">Welcome to Game-Store</h1>
-				<p class="mb-4 text-wrap">
-					Welcome to Game-Store, your one-stop destination for all
-					things gaming. Search through our extensive collection of
-					games and discover the latest releases across various
-					platforms. We offer the best prices to ensure you get the
-					most value for your gaming experience. Dive into the world
-					of gaming with us!
-				</p>
-				<a href="#" class="btn btn-dark text-wrap">Meet at Instagram</a>
+			<div class="back-filter w-100 h-100 p-5">
+				<div class="p-3">
+					<h1 class="mb-4">Welcome to Game-Store</h1>
+					<p class="mb-4 text-wrap">
+						Welcome to Game-Store, your one-stop destination for all
+						things gaming. Search through our extensive collection
+						of games and discover the latest releases across various
+						platforms. We offer the best prices to ensure you get
+						the most value for your gaming experience. Dive into the
+						world of gaming with us!
+					</p>
+					<a href="#" class="btn btn-dark text-wrap"
+						>Meet at Instagram</a
+					>
+				</div>
 			</div>
 		</section>
 		<!-- = = = = = = Welcome Section Ends = = = = = = -->
@@ -185,14 +191,14 @@
 		<!-- = = = = = = Carausel Section Ends = = = = = = -->
 
 		<!-- = = = = = = New Launch Section Start -->
-		<section class="new-launch container-fluid d-block p-5">
+		<section class="new-launch container-fluid d-block p-5" id="newlaunch">
 			<h1 class="text-center mb-5">New Launch</h1>
 			<div class="row">
 				<div class="col-md-7 text-start">
 					<h2 style="font-family: Berserker; font-weight: bold">
 						God Of War Ragnorok
 					</h2>
-					<h4>About ></h4>
+					<h4>About</h4>
 					<p class="text-about">
 						Kratos and Atreus must journey to each of the Nine
 						Realms in search of answers as they prepare for the
@@ -239,10 +245,71 @@
 					/>
 				</div>
 			</div>
+			<div class="row mt-5">
+				<div class="col-md-7 text-start">
+					<h2 style="font-family: Assassin; font-weight: bold">
+						Assassin's Creed Mirage
+					</h2>
+					<h4>About</h4>
+					<p class="text-about">
+						Experience the story of Basim, a cunning street thief
+						seeking answers and justice as he navigates the bustling
+						streets of ninth–century Baghdad. In Assassin's Creed
+						Mirage, you are Basim, a cunning street thief with
+						nightmarish visions seeking answers and justice. Join an
+						ancient organization and come to understand a new creed
+						– one that will change Basim’s fate in ways he never
+						could have imagined. Parkour seamlessly through the city
+						and leverage the largest assortment of tools to date,
+						and stealthily take down targets with more visceral
+						assassinations than ever before. Discover a
+						narrative-driven action-adventure experience that
+						follows the transformation of a defiant young man into a
+						refined Master Assassin with a conflicted destiny.
+						Journey to Alamut, the legendary home of the Assassins
+						who laid the foundations of the Creed in this heartfelt
+						homage to the game that started it all.
+					</p>
+					<div class="row">
+						<div class="col">
+							<h6>Platforms :</h6>
+							<p>
+								iOS, PlayStation 5, PC, Xbox Series S/X, Xbox
+								One, PlayStation 4
+							</p>
+							<h6>Genre :</h6>
+							<p>Action</p>
+							<h6>Release Date :</h6>
+							<p>Oct 5, 2023</p>
+						</div>
+						<div class="col">
+							<h6>Developer :</h6>
+							<p>Ubisoft, Ubisoft Montreal</p>
+							<h6>Publisher :</h6>
+							<p>Ubisoft Entertainment</p>
+							<h6>Age Rating :</h6>
+							<p>18+ Adults Only</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-5 d-flex justify-content-center align-items-center"
+				>
+					<img
+						style="
+							border-radius: 5px;
+							box-shadow: 0px 1px 100px 1px #433d3d;
+						"
+						src="https://media.giphy.com/media/owJ373PJ4znEoyimCc/giphy.gif"
+						alt="Intro Image"
+						width="100%"
+					/>
+				</div>
+			</div>
 		</section>
 		<!-- = = = = = = New Launch Section Ends -->
 		<!-- = = = = = = Featured Games Start -->
-		<section class="featured-games container-fluid p-5">
+		<section class="featured-games container-fluid p-5" id="featured">
 			<h1 class="text-center mb-5">Featured Games</h1>
 			<div class="row d-flex justify-content-between p-4">
 				<div
@@ -575,6 +642,6 @@
 		<!-- = = = = = = Bootstrap JS = = = = = = -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 		<!-- = = = = = = JS = = = = = = -->
-		<script src="/assets/js/main.js"></script>
+		<script src="/js/main.js"></script>
 	</body>
 </html>

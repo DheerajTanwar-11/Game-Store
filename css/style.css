@@ -9,7 +9,10 @@
 	font-family: "Berserker";
 	src: url(/fonts/Berserker-Regular.ttf);
 }
-
+@font-face {
+	font-family: "Assassin";
+	src: url(/fonts/Assassin$.ttf);
+}
 /* = = = = = = Base = = = = = = */
 * {
 	border: border-box;
@@ -38,6 +41,11 @@ h1 {
 .welcome {
 	background-image: url(/img/bg2.jpg);
 	background-size: cover;
+}
+
+.welcome .back-filter {
+	/* backdrop-filter: blur(16px); */
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .welcome p {

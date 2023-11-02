@@ -1,5 +1,6 @@
 /* = = = = = = Fonts = = = = = = */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
 @font-face {
 	font-family: "The Devil Net";
 	src: url(/fonts/The\ Devil\ Net.ttf);
@@ -15,6 +16,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Montserrat", sans-serif;
+	/* font-family: "Teko", sans-serif; */
 }
 
 /* = = = = = = Navbar = = = = = = */
@@ -87,4 +89,12 @@ h1 {
 .footer li {
 	list-style: none;
 	font-size: 0.9rem;
+}
+
+.footer a:hover {
+	color: #cccccc;
+}
+
+.footer input::placeholder {
+	color: #cccccc;
 }
